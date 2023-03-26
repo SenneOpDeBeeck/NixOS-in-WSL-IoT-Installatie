@@ -1,4 +1,4 @@
-#Hier is de Configuratie file voor nixos
+#Hier is mijn Configuratie file voor nixos
 
 
 { lib, pkgs, config, modulesPath, ... }:
