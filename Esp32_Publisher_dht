@@ -20,10 +20,6 @@ api:
 
 ota:
 
-  "topic": "home-assistant/esp32/Temperatuur",
-  "payload_template": "{{ states('device_tracker.paulus') }}"
-
-
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
@@ -43,5 +39,11 @@ sensor:
     humidity:
       name: "Living Room Humidity"
     update_interval: 60s
+
+  "topic": "home-assistant/esp32/Temperatuur",
+     "payload_template": "{{ temperature) }}"
+
+  "topic": "home-assistant/esp32/Humidity",
+    "payload_template": "{{ humidity) }}"
     
     
