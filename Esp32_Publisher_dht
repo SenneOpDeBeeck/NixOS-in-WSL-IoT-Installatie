@@ -29,21 +29,17 @@ wifi:
     ssid: "Esphome-Web-361474"
     password: "S35jfTC9rjFU"
 
-captive_portal:
+mqtt:
+  broker: !secret mqtt_broker
+  username: !secret mqtt_username
+  password: !secret mqtt_password
+
 
 sensor:
   - platform: dht
-    pin: 18
+    pin: 12
     temperature:
-      name: "Living Room Temperature"
+      name: "Temperature"
     humidity:
-      name: "Living Room Humidity"
+      name: "Humidity"
     update_interval: 60s
-
-  "topic": "home-assistant/esp32/Temperatuur",
-     "payload_template": "{{ temperature) }}"
-
-  "topic": "home-assistant/esp32/Humidity",
-    "payload_template": "{{ humidity) }}"
-    
-    
