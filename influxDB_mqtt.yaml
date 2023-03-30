@@ -1,8 +1,5 @@
 #Deze yaml file zal ervoor moeten zorgen dat ik mij influxDB kan weergeven op het web en mijn MQTT broker tot stand is gekomen.
 
-
-
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
