@@ -5,7 +5,7 @@
 
 Inleiding:
 
-Voor een opdracht van school moesten we een IoT installatie tot stand brengen met behulp van een MQTT broker die op kubernetes draait, en Influxdb. De basis opzet hiervan is NixOS in WSL met een enkele Kubernetes node. Een esp32 zal met een geconfigureert yaml bestand de waardes van een dht sensor doorsturen naar de broker m.b.v. het mqtt communicatie Protocol.
+Voor een opdracht van school moesten we een IoT installatie tot stand brengen met behulp van een MQTT broker die op kubernetes draait met een Influxdb. De basis opzet hiervan is NixOS in WSL met een enkele Kubernetes node. Een esp32 zal met een geconfigureert yaml bestand de waardes van een dht sensor doorsturen naar de broker m.b.v. het mqtt communicatie Protocol.
 
 
 
